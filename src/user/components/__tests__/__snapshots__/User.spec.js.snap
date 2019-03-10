@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user sagas should fetch users 1`] = `
+<li>
+  <span>
+    D
+     
+  </span>
+  <span>
+    K
+  </span>
+</li>
+`;

@@ -1,4 +1,4 @@
-class Http {
+export class Http {
     constructor(url) {
         this.url = url;
     }

@@ -2,7 +2,7 @@ import {put, takeEvery} from 'redux-saga/effects';
 import {FETCH_USERS, setUsers} from './userActions';
 import {http} from '../shared/services/Http';
 
-function* fetchUsers() {
+export function* fetchUsers() {
     try {
         const response = yield http.get('users');
         const {data} = response;
